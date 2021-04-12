@@ -7,8 +7,8 @@ import plotly.express as px
 DATE_COLUMN = "date/time"
 RAD_TO_DEG = 57.2958
 
-JOINT_DATA_URL = "data/joints.csv"
-CART_DATA_URL = "data/cart.csv"
+JOINT_DATA_URL = "https://raw.githubusercontent.com/david0429/ur_motion_streamlit/master/data/joints.csv"
+CART_DATA_URL = "https://raw.githubusercontent.com/david0429/ur_motion_streamlit/master/data/cart.csv"
 
 def get_j_dial(name, joint_data):
     return go.Figure(go.Indicator(
